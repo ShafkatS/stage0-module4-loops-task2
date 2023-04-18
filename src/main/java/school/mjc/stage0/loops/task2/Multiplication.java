@@ -2,7 +2,7 @@ package school.mjc.stage0.loops.task2;
 
 public class Multiplication {
     public void printMultiplied(int multiplyByAndToInclusive) {
-        int multiplicationByMultiplyByAndToInclusive = 0;
+        int multiplicationByMultiplyByAndToInclusive;
         System.out.println(multiplicationByMultiplyByAndToInclusive);
             while (multiplyByAndToInclusive > multiplicationByMultiplyByAndToInclusive) {
                 multiplicationByMultiplyByAndToInclusive++;
