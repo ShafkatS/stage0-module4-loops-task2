@@ -2,12 +2,15 @@ package school.mjc.stage0.loops.task2;
 
 public class PrimeNumbers {
     public void printPrimeNumbers(int printToInclusive) {
-        int primeNumbersBeforePrintToInclusive = 0;
-        while (primeNumbersBeforePrintToInclusive < printToInclusive) {
-            primeNumbersBeforePrintToInclusive++;
-            if (primeNumbersBeforePrintToInclusive % 1 == 0 && primeNumbersBeforePrintToInclusive % 2 == 0) {
-            } else {
-                System.out.println(primeNumbersBeforePrintToInclusive);
+       for (int i=2;i<=printToInclusive; i++){
+            int count=0;
+            for(int j=2;j<i;j++){
+                if(i%j==0){
+                   count++;
+                }
+            }
+            if(count==0){
+                System.out.println(i);
             }
         }
     }
